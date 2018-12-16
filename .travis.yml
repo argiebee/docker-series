@@ -4,3 +4,10 @@ dotnet: 2.0
 script:
  - dotnet restore
  - dotnet build
+=======
+sudo: required
+services:
+  - docker
+script:
+  - docker-compose -f docker-compose.integration.yml up --force-recreate --abort-on-container-exit --build
+  - docker-compose -f docker-compose.integration.yml down -v
