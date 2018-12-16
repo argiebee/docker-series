@@ -1,5 +1,6 @@
 /AccountOwnerServer/obj
 /AccountOwnerServer/bin
+/AccountOwnerServer/Projects
 /Contracts/obj
 /Contracts/bin
 /Entities/obj
@@ -8,3 +9,11 @@
 /LoggerService/bin
 /Repository/obj
 /Repository/bin
+/Tests/bin
+/Tests/obj
+publish
+/.vs
+/AccountOwnerServer/internallog.txt
+/AccountOwnerServer/2018-04-24_logfile.txt
+/AccountOwnerServer/AccountOwnerServer.csproj.user
+/Integration/Integration.csproj.user
